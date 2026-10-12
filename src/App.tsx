@@ -12,7 +12,8 @@ const skills = [
   { title: 'Backend engineering', icon: Code2, items: ['C# / .NET', 'ASP.NET Core', 'REST APIs', 'EF Core', 'LINQ', 'SQL Server'] },
   { title: 'Cloud & delivery', icon: Cloud, items: ['Azure App Service', 'Azure Functions', 'Key Vault', 'Blob Storage', 'Application Insights', 'Azure DevOps'] },
   { title: 'Architecture & quality', icon: Layers3, items: ['Solution design', 'SOLID principles', 'Clean Architecture', 'DDD / CQRS concepts', 'Automated testing', 'Code reviews'] },
-  { title: 'Full-stack & integration', icon: Terminal, items: ['React', 'TypeScript', 'PostgreSQL', 'HL7v2 / MLLP concepts', 'CI/CD', 'Git'] }
+  { title: 'Frontend development', icon: Code2, items: ['React', 'TypeScript', 'JavaScript', 'HTML', 'CSS', 'Responsive layouts'] },
+  { title: 'Data & integration', icon: Terminal, items: ['PostgreSQL', 'HL7v2 / MLLP concepts', 'CI/CD', 'Git'] }
 ];
 const career = [
   { role: 'Senior Software Engineer', company: 'Verbund Pflegehilfe', period: 'Feb 2023 — Present', place: 'Mainz, Germany', summary: 'Multi-tenant healthcare SaaS: .NET APIs, Azure services, integrations, production support and cross-stack delivery.' },
