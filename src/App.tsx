@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { ArrowDownRight, ArrowRight, ArrowUpRight, BriefcaseBusiness, Check, ChevronDown, Cloud, Code2, Download, ExternalLink, Github, Layers3, Linkedin, Mail, MapPin, Menu, ShieldCheck, Sparkles, Terminal, X } from 'lucide-react';
+import { ArrowDownRight, ArrowRight, ArrowUpRight, BriefcaseBusiness, Check, ChevronDown, Cloud, Code2, Download, Github, Layers3, Mail, MapPin, Menu, ShieldCheck, Sparkles, Terminal, X } from 'lucide-react';
 
 type Project = { number: string; label: string; title: string; description: string; tags: string[]; highlights: string[]; note: string; kind: 'work' | 'personal' };
 const projects: Project[] = [
